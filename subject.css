@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.main{
+    width: 100%;
+    overflow: hidden;
+    background-color: gray;
+}
+.main h2{
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+/* Menu */
+.main .Menu{
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+.Menu table{
+    width: 100%;
+    border: 1px solid white;
+}
+.Menu table tr{
+    border: 1px solid white;
+    background-color: black;
+}
+.Menu table tr th{
+    border: 1px solid white;
+    padding: 10px;
+}
+.Menu table tr th a{
+    color: white;
+    text-decoration: none;
+}
+/* Subject */
+.main .big-box{
+    width: 80%;
+   margin: auto;
+}
+.big-box .box1{
+    width: 40%;
+    float: left;
+    /* background-color: firebrick; */
+}
+.big-box .box1 h3{
+    background-color: red;
+    text-align: center;
+}
+.big-box .box1 ul{
+    margin-left: 40px;
+    padding: 10px;
+}
+.big-box .box2{
+    width: 60%;
+    float: left;
+    padding: 20px 0;
+    background-color: black;
+}
+.box2 table{
+    width: 100%;
+    height: auto;
+}
+.box2 table tr th{
+    width: 10%;
+}
+.box2 table tr th img{
+    width: 100%;
+    height: 200px;
+    transition: 0.1s;
+}
+.box2 table tr th:hover{
+    transform: translate(-1%, 1%);
+}
+/* list-subject */
+.main .list-subject{
+    width: 80%;
+    overflow: hidden;
+    padding-bottom: 30px;
+
+    margin: auto;
+}
+.list-subject table{
+    width: 100%;
+    /* border: 1px solid white; */
+}
+.list-subject table tr th{
+    border: 1px solid white;
+    color: white;
+    padding: 5px;
+}
+.list-subject ul{
+    margin-left: 40px;
+    padding: 10px;
+    text-indent: 0px;
+}
